@@ -1,1 +1,119 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto.woff'), url('../fonts/Roboto/Robotobold.woff');
+}
 
+@font-face {
+  font-family: 'icon';
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("../fonts/webfonts/fa-brands-400.eot");
+  src: url("../fonts/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/fa-brands-400.woff2") format("woff2"), url("../fonts/webfonts/fa-brands-400.woff") format("woff"), url("../fonts/webfonts/fa-brands-400.ttf") format("truetype"), url("../fonts/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+  font-family: 'icon free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("../fonts/webfonts/fa-solid-900.eot");
+  src: url("../fonts/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/fa-solid-900.woff2") format("woff2"), url("../fonts/webfonts/fa-solid-900.woff") format("woff"), url("../fonts/webfonts/fa-solid-900.ttf") format("truetype"), url("../fonts/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+.google-play::before {
+  font-family: 'icon';
+  content: '\f3ab';
+}
+
+.apple::before {
+  font-family: 'icon';
+  content: '\f179';
+}
+
+.star::before {
+  font-family: 'icon';
+  content: '\f005';
+}
+
+.arrow-alt::before {
+  font-family: 'icon free';
+  content: '\f0b2';
+}
+
+.arrow::after {
+  font-family: 'icon free';
+  content: '\f107';
+}
+
+/* autoprefixer: on */
+
+/*  */
+
+/*  */
+
+/* column: */
+
+/* column: auto*/
+
+/* column: grow*/
+
+/* column: number*/
+
+/* media content */
+
+/* normalize css */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto';
+  color: #858585;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .row {
+  margin-left: -15px;
+  margin-right: -15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 969px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .container {
+    max-width: 731px;
+  }
+}
+
+@media (max-width: 770px) {
+  .container {
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 590px) {
+  .container {
+    max-width: 100%;
+  }
+}
